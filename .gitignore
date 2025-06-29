@@ -1,0 +1,51 @@
+# === GLOBAL ===
+.DS_Store
+Thumbs.db
+.env
+.env.local
+.env.*.local
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.swp
+
+# === FRONTEND (React Native + Expo) ===
+frontend/node_modules/
+frontend/.expo/
+frontend/.expo-shared/
+frontend/.vscode/
+frontend/.idea/
+frontend/dist/
+frontend/web-build/
+frontend/build/
+frontend/*.iml
+frontend/assets/**/*.tmp
+frontend/assets/**/*.cache
+frontend/coverage/
+
+# === BACKEND (Node.js + Express) ===
+backend/node_modules/
+backend/.vscode/
+backend/.idea/
+backend/logs/
+backend/logs/*.log
+backend/package-lock.json
+backend/*.iml
+backend/coverage/
+
+# === BASE DE DATOS / CONFIG ===
+*.sqlite
+*.db
+*.sql
+mysql_backup.sql
+backend/config/db_config.js
+
+# === SISTEMA Y EDITORES ===
+.vscode/
+.idea/
+*.bak
+*.tmp
+*.backup
+*.old
+*.orig
